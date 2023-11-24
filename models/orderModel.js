@@ -8,15 +8,15 @@ const Orders = sequelize.define('orders', {
     allowNull: false,
   },
   orderDate: {
-    type: DataTypes.STRING,
+    type: DataTypes.DATE,
     allowNull: false,
   },
   requiredDate: {
-    type: DataTypes.STRING,
+    type: DataTypes.DATE,
     allowNull: false,
   },
   shippedDate: {
-    type: DataTypes.STRING,
+    type: DataTypes.DATE,
     allowNull: false,
   },
   status: {
